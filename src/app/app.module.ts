@@ -6,13 +6,15 @@ import { RouterModule } from "@angular/router";
 import { AppComponent } from './app.component';
 import { FirstCanvasLessonComponent } from './first-canvas-lesson/first-canvas-lesson.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MainMenuComponent } from './main-menu/main-menu.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstCanvasLessonComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    MainMenuComponent
   ],
   imports: [
     BrowserModule,
