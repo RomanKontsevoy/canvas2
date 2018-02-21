@@ -1,0 +1,41 @@
+canvas {
+  width: 600px;
+  height: 600px;
+  background: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 350px;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  background: #59da39;
+  width: 300px;
+  margin: 10px auto;
+}
+
+.p-input {
+  width: 40px;
+  height: 24px;
+  background: #e4ff3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

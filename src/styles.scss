@@ -214,6 +214,11 @@ body {
 
 canvas {
     border: 2px solid red;
+    box-sizing: content-box;
+    width: 400px;
+    height: 200px;
+    margin: 40px 40px 40px 0;
+    background: url(app/setka.png);
 }
 
 .btn {
