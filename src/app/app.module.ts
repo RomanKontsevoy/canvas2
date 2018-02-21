@@ -14,6 +14,7 @@ import { FifthCanvasLessonComponent } from './fifth-canvas-lesson/fifth-canvas-l
 import { SixthCanvasComponentComponent } from './sixth-canvas-component/sixth-canvas-component.component';
 import { SeventhCanvasLessonComponent } from './seventh-canvas-lesson/seventh-canvas-lesson.component';
 import { EighthCanvasComponentComponent } from './eighth-canvas-component/eighth-canvas-component.component';
+import { NinthCanvasLessonComponent } from './ninth-canvas-lesson/ninth-canvas-lesson.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { EighthCanvasComponentComponent } from './eighth-canvas-component/eighth
     FifthCanvasLessonComponent,
     SixthCanvasComponentComponent,
     SeventhCanvasLessonComponent,
-    EighthCanvasComponentComponent
+    EighthCanvasComponentComponent,
+    NinthCanvasLessonComponent
   ],
   imports: [
     BrowserModule,
@@ -41,6 +43,7 @@ import { EighthCanvasComponentComponent } from './eighth-canvas-component/eighth
       {path: 'cl6', component: SixthCanvasComponentComponent},
       {path: 'cl7', component: SeventhCanvasLessonComponent},
       {path: 'cl8', component: EighthCanvasComponentComponent},
+      {path: 'cl9', component: NinthCanvasLessonComponent},
       {path: '', redirectTo: '', pathMatch: 'full'},
       {path: '**', component: PageNotFoundComponent }
     ])
